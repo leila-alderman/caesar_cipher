@@ -6,6 +6,9 @@ A [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) is one of the old
 
 [This project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/sinatra-project?ref=lnav) is part of [The Odin Project](https://www.theodinproject.com) curriculum.
 
+## Heroku
+To see this app in action, check it out [on Heroku](https://stormy-sea-24508.herokuapp.com/).
+
 ## To run this app locally
 1. Fork this repository on GitHub.
 2. Clone your forked repository onto your local computer.
