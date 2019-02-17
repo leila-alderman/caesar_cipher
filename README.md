@@ -12,7 +12,6 @@ To see this app in action, check it out [on Heroku](https://stormy-sea-24508.her
 ## To run this app locally
 1. Fork this repository on GitHub.
 2. Clone your forked repository onto your local computer.
-3. Use `cd finatra` to move into the project folder.
-4. Run `ruby db/seeds.rb` to initialize the database.
-5. Run `ruby app.rb` to start the server.
-6. In your browser, navigate to http://localhost:4567/.
+3. Use `cd caesar_cipher` to move into the project folder.
+4. Run `ruby app.rb` to start the server.
+5. In your browser, navigate to http://localhost:4567/.
