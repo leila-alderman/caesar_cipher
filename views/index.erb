@@ -10,3 +10,9 @@
   <br/>
   <button type="submit" class="btn btn-primary">Apply Caesar Cipher</button>
 </form>
+
+<% if @output %>
+  <h3>Encrypted Text</h3>
+  <br/>
+  <p><%= @output %></p>
+<% end %>

@@ -1,7 +1,16 @@
 require "sinatra"
 require "sinatra/reloader"
 
+enable :sessions
+
 get "/" do
+  erb :index, layout: :main
+end
+
+post "/" do
+  @text = params["input"]
+  @shift = params["shift"].to_i
+  @output = caesar(@text, @shift)
   erb :index, layout: :main
 end
 
