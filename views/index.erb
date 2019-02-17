@@ -1,16 +1,29 @@
+<div>
+  <p>
+  A <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar cipher</a> is one of the oldest and 
+  most widely known encryption techniques. It's a type of substitution cipher in which each 
+  letter is replaced by a different letter a set number of positions away in the alphabet. 
+  <a href="https://www.youtube.com/watch?v=36xNpbosfTY">For example</a>, with a right shift of 3, 
+  "D" becomes "G", and "L" becomes "O".
+  </p>
+  <p>
+  Below, you can enter text that you want to encrypt using the Caesar cipher and then the shift
+  that you want to apply. To apply a right shift, enter a positive number; to apply a left shift, 
+  enter a negative number. The number that you enter can be greater than 26 to cycle through the
+  alphabet more than once.
+  </p>
+</div>
+<br/>
+<br/>
 <form method="post" action="/">
   <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" class="form-control" placeholder="Fish name">
+    <label for="input">Input Text</label>
+    <textarea id="input" name="input" class="form-control" placeholder="Enter the text that you want to apply the Caesar cipher to here."></textarea>
   </div>
   <div class="form_group">
-    <label for="image_url">Image URL</label>
-    <input type="text" id="image_url" name="image_url" class="form-control" placeholder="Image URL of the fish">
-  </div>
-  <div class="form_group">
-    <label for="description">Description</label>
-    <textarea id="description" name="description" class="form-control" placeholder="Description of the fish"></textarea>
+    <label for="shift">Shift</label>
+    <input type="number" id="shift" name="shift" class="form-control" placeholder="Enter the shift here.">
   </div>
   <br/>
-  <button type="submit" class="btn btn-primary">Add a new fish</button>
+  <button type="submit" class="btn btn-primary">Apply Caesar Cipher</button>
 </form>
